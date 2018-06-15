@@ -1,0 +1,31 @@
+{
+  "name": "mdx-reload-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "dev": "micro server.js",
+    "build": "cross-env NODE_ENV=production next build",
+    "start": "cross-env NODE_ENV=production micro server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothyis/mdx-reload-bug.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timothyis/mdx-reload-bug/issues"
+  },
+  "homepage": "https://github.com/timothyis/mdx-reload-bug#readme",
+  "devDependencies": {
+    "@mdx-js/loader": "^0.11.0",
+    "@mdx-js/mdx": "^0.10.1",
+    "@mdx-js/tag": "^0.11.0",
+    "@zeit/next-mdx": "^1.1.0",
+    "micro": "^9.3.2",
+    "next": "^6.0.4-canary.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
